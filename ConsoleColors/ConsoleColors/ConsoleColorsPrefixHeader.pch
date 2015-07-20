@@ -1,0 +1,17 @@
+//
+//  ConsoleColorsPrefixHeader.pch
+//  ConsoleColors
+//
+//  Created by ioswei on 15/7/20.
+//  Copyright (c) 2015年 zhangjiawei. All rights reserved.
+//
+
+#ifndef ConsoleColors_ConsoleColorsPrefixHeader_pch
+#define ConsoleColors_ConsoleColorsPrefixHeader_pch
+
+#import "CocoaLumberjack.h"
+
+// 设置日志系统级别
+static const DDLogLevel ddLogLevel = DDLogLevelAll;
+
+#endif
