@@ -12,6 +12,10 @@
 #import "CocoaLumberjack.h"
 
 // 设置日志系统级别
+#ifndef __OPTIMIZE__
 static const DDLogLevel ddLogLevel = DDLogLevelAll;
+#else
+static const DDLogLevel ddLogLevel = DDLogLevelInfo;
+#endif
 
 #endif
